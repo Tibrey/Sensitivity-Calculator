@@ -7,7 +7,7 @@ import { RiResetRightFill } from "react-icons/ri";
 
 // Get API base URL from the environment variables (Vite uses import.meta.env)
 const API_BASE_URL =
-  import.meta.env.VITE_REACT_APP_API_URL || "http://localhost:8000/api";
+  import.meta.env.VITE_REACT_APP_API_URL;
 
 const SensitivityCalculator = () => {
   // --- React Hook Form Setup ---
